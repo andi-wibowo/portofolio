@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Navigasi -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="./assets/img/usericon.png" width="40px" alt="logo">Portofolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">Tentang Saya</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Proyek</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Kontak</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- Header -->
+  <header class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+      <img src="./assets/img/bowo.png" width="350px" alt="image">
+      <h1 class="display-4">I'm a Web <span>Developer</span></h1>
+      <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+         Dolore, iusto. Nemo, tempora nesciunt, minus quos provident cupiditate debitis expedita odio eligendi atque deleniti hic? 
+         Pariatur suscipit magni autem corrupti amet velit ut maiores possimus placeat libero repellendus, nemo sed eius hic nesciunt assumenda,
+          quidem veniam ipsam dolorem obcaecati nostrum alias.</p>
+    </div>
+    <div><button class="btn btn-secondary">DOWNLOAD CV</button></div>
+  </header>
+  
+  <!-- Tentang Saya -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="display-4">Tentang Saya</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt lacus nec ex faucibus, sit amet volutpat velit gravida.</p>
+        </div>
+        <div class="col-lg-6">
+          <img src="profile.jpg" alt="Profil Saya" class="img-fluid rounded-circle">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Proyek -->
+  <section id="projects" class="bg-light py-5">
+    <div class="container">
+      <h2 class="display-4 text-center">Proyek</h2>
+      <div class="row">
+        <!-- Contoh proyek 1 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="project1.jpg" class="card-img-top" alt="Proyek 1">
+            <div class="card-body">
+              <h5 class="card-title">Proyek 1</h5>
+              <p class="card-text">Deskripsi singkat proyek 1.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Contoh proyek 2 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="project2.jpg" class="card-img-top" alt="Proyek 2">
+            <div class="card-body">
+              <h5 class="card-title">Proyek 2</h5>
+              <p class="card-text">Deskripsi singkat proyek 2.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Contoh proyek 3 -->
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="project3.jpg" class="card-img-top" alt="Proyek 3">
+            <div class="card-body">
+              <h5 class="card-title">Proyek 3</h5>
+              <p class="card-text">Deskripsi singkat proyek 3.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Kontak -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="display-4 text-center">Kontak</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="card p-4">
+            <div class="card-body">
+              <h4 class="card-title">Hubungi Saya</h4>
+              <form>
+                <div class="form-group">
+                  <label for="name">Nama</label>
+                  <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Pesan</label>
+                  <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Sertakan link ke Bootstrap JS di sini -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
